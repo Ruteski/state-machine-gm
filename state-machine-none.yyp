@@ -37,12 +37,15 @@
   "resources": [
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
     {"id":{"name":"spr_move","path":"sprites/spr_move/spr_move.yy",},},
+    {"id":{"name":"obj_botao_estado","path":"objects/obj_botao_estado/obj_botao_estado.yy",},},
     {"id":{"name":"spr_bolinha","path":"sprites/spr_bolinha/spr_bolinha.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"spr_charge","path":"sprites/spr_charge/spr_charge.yy",},},
     {"id":{"name":"obj_bolinha","path":"objects/obj_bolinha/obj_bolinha.yy",},},
+    {"id":{"name":"fnt_texto","path":"fonts/fnt_texto/fnt_texto.yy",},},
     {"id":{"name":"spr_dash","path":"sprites/spr_dash/spr_dash.yy",},},
     {"id":{"name":"spr_idle","path":"sprites/spr_idle/spr_idle.yy",},},
+    {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

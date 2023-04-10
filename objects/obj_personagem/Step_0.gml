@@ -1,23 +1,34 @@
 switch(estado) {
 	
 	case STATE.IDLE: 
-		sprite_index = spr_idle;
+		define_animacao(spr_idle);
 		break;
 	
 	case STATE.MOVE:
-		sprite_index = spr_move;
+		define_animacao(spr_move);
 		break;
 	
 	case STATE.CHARGE:
-		sprite_index = spr_charge;
+		define_animacao(spr_charge);
 		break;	
 		
 	case STATE.DASH:
-		sprite_index = spr_dash;
+		//garantindo que vai começar animacao do começo
+		define_animacao(spr_dash);
+		
+		//animacao so rodar 1x
+		if (image_index >= 6) {
+			image_index = 6;
+		}
+		
 		break;
 		
 	case STATE.DEATH:
-		sprite_index = spr_death;
+		define_animacao(spr_death);
+		
+		if (image_index >= image_number -1) {
+			image_index = image_number -1;
+		}
+		
 		break;
-
 }

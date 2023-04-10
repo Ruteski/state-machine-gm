@@ -20,8 +20,10 @@
   "ResourceOrderSettings": [
     {"name":"spr_death","order":3,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"spr_move","order":2,"path":"sprites/spr_move/spr_move.yy",},
+    {"name":"obj_botao_estado","order":2,"path":"objects/obj_botao_estado/obj_botao_estado.yy",},
     {"name":"obj_personagem","order":1,"path":"objects/obj_personagem/obj_personagem.yy",},
     {"name":"spr_charge","order":1,"path":"sprites/spr_charge/spr_charge.yy",},
     {"name":"spr_dash","order":4,"path":"sprites/spr_dash/spr_dash.yy",},
+    {"name":"spr_botao","order":2,"path":"sprites/spr_botao/spr_botao.yy",},
   ],
 }
