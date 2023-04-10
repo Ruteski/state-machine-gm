@@ -1,0 +1,9 @@
+enum STATE {
+	IDLE,
+	CHARGE,
+	DASH,
+	DEATH,
+	MOVE
+}
+
+estado = STATE.CHARGE;
