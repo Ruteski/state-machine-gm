@@ -6,10 +6,29 @@ switch(estado) {
 	
 	case STATE.MOVE:
 		define_animacao(spr_move);
+		
+		//terminou a animacao, muda o estado
+		if (image_index >= image_number - 1) {
+			var _chance = random(1);
+			
+			if (_chance >= .9) {
+				estado = STATE.DEATH;
+			} else {
+				image_index = 0;
+				estado = STATE.MOVE;
+			}
+		}
+		
 		break;
 	
 	case STATE.CHARGE:
 		define_animacao(spr_charge);
+		
+		//terminou a animacao, muda o estado
+		if (image_index >= image_number - 1) {
+			estado = STATE.DASH;
+		}
+		
 		break;	
 		
 	case STATE.DASH:
@@ -19,6 +38,8 @@ switch(estado) {
 		//animacao so rodar 1x
 		if (image_index >= 6) {
 			image_index = 6;
+			
+			estado = STATE.MOVE;
 		}
 		
 		break;
@@ -28,6 +49,10 @@ switch(estado) {
 		
 		if (image_index >= image_number -1) {
 			image_index = image_number -1;
+			
+			//terminou a animacao, muda o estado
+			estado = STATE.CHARGE;
+		
 		}
 		
 		break;
