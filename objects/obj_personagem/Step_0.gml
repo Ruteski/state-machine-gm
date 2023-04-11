@@ -1,4 +1,7 @@
-switch(estado) {
+//executando meu estado
+estado();
+
+/*switch(estado) {
 	
 	case STATE.IDLE: 
 		define_animacao(spr_idle);
@@ -56,4 +59,4 @@ switch(estado) {
 		}
 		
 		break;
-}
+}*/

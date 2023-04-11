@@ -1,0 +1,1 @@
+estado = player_death;

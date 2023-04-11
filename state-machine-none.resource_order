@@ -18,6 +18,7 @@
     {"name":"Personagem","order":1,"path":"folders/Sprites/Personagem.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_testando","order":3,"path":"objects/obj_testando/obj_testando.yy",},
     {"name":"spr_death","order":3,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"spr_move","order":2,"path":"sprites/spr_move/spr_move.yy",},
     {"name":"obj_botao_estado","order":2,"path":"objects/obj_botao_estado/obj_botao_estado.yy",},

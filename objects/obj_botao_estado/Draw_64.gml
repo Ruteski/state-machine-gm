@@ -13,7 +13,7 @@ if (obj_personagem.estado == estado) {
 	_qtd = _atual / _total;
 	
 	//desenha o quadrado da animacao, progresso
-	draw_sprite_part_ext(sprite_index, image_index, 0, 0, _qtd * sprite_width, sprite_height, x * 5, y, 5, 5, c_maroon, .5);
+	//draw_sprite_part_ext(sprite_index, image_index, 0, 0, _qtd * sprite_width, sprite_height, x * 5, y, 5, 5, c_maroon, .5);
 }
 
 draw_set_color(c_blue);

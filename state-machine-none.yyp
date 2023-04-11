@@ -35,7 +35,9 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"obj_testando","path":"objects/obj_testando/obj_testando.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
+    {"id":{"name":"scr_state_machine","path":"scripts/scr_state_machine/scr_state_machine.yy",},},
     {"id":{"name":"spr_move","path":"sprites/spr_move/spr_move.yy",},},
     {"id":{"name":"obj_botao_estado","path":"objects/obj_botao_estado/obj_botao_estado.yy",},},
     {"id":{"name":"spr_bolinha","path":"sprites/spr_bolinha/spr_bolinha.yy",},},

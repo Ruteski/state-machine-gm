@@ -1,4 +1,6 @@
-switch(texto_estado) {
+obj_personagem.estado = meu_estado;
+
+/*switch(texto_estado) {
 	
 	case "idle": 
 		obj_personagem.estado = STATE.IDLE;
